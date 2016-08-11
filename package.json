@@ -1,19 +1,36 @@
 {
   "name": "date-xo",
-  "version": "0.1.0",
   "description": "Helper for Date",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "version": "0.1.0",
+  "author": "Italo A. Casas <me@italoacasas.com> (http://italoacasas.com/)",
+  "bugs": {
+    "url": "https://github.com/italoacasas/date-xo/issues"
   },
+  "devDependencies": {
+    "eslint": "^3.2.2",
+    "fixpack": "^2.3.1",
+    "pre-commit": "^1.1.3"
+  },
+  "homepage": "https://github.com/italoacasas/date-xo#readme",
+  "keywords": [
+    "date",
+    "helper",
+    "node",
+    "time"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "pre-commit": [
+    "precommit-msg",
+    "linter"
+  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/italoacasas/date-xo.git"
   },
-  "author": "Italo A. Casas <me@italoacasas.com> (http://italoacasas.com/)",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/italoacasas/date-xo/issues"
-  },
-  "homepage": "https://github.com/italoacasas/date-xo#readme"
+  "scripts": {
+    "fix": "fixpack",
+    "linter": "eslint .",
+    "precommit-msg": "echo 'Pre-commit checks...' && exit 0"
+  }
 }
