@@ -17,8 +17,12 @@ JavaScript `Date()` Helpers
 ## To Do
 
 - [x] Project init
-- [ ] Helper to add `x` number of days to the current date
+- [x] Helper to add `x` number of days to the current date
 - [ ] Unit Testing
+
+## Documentation
+
+- `datePlus(3)` 3 days from today
 
 ## License
 

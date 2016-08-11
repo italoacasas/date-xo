@@ -19,7 +19,7 @@
     "time"
   ],
   "license": "MIT",
-  "main": "index.js",
+  "main": "lib/index.js",
   "pre-commit": [
     "precommit-msg",
     "linter"
