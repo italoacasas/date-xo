@@ -1,7 +1,6 @@
-# Date Xo
+# Date Xo (Beta version)
 
 JavaScript `Date()` Helpers
-#### Beta version use with caution
 
 ## Contains
 
@@ -17,12 +16,15 @@ JavaScript `Date()` Helpers
 ## To Do
 
 - [x] Project init
-- [x] Helper to add `x` number of days to the current date
+- [ ] Travis intregation
 - [ ] Unit Testing
+- [ ] Documentation
+- [ ] Stable version
 
 ## Documentation
 
 - `datePlus(3)` 3 days from today
+- `twoDaysAgo(date)` true if the date is two days old or higher 
 
 ## License
 
