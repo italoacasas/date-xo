@@ -24,7 +24,8 @@ JavaScript `Date()` Helpers
 ## Documentation
 
 - `datePlus(3)` 3 days from today
-- `twoDaysAgo(date)` true if the date is two days old or higher 
+- `twoDaysAgo(date)` true if the date is two days old or higher
+- `pastDate(date)` true if is a past date
 
 ## License
 
