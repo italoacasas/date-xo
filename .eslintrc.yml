@@ -3,6 +3,7 @@ env:
   node: true
 extends: 'eslint:recommended'
 rules:
+  no-unsafe-finally: 0
   indent:
     - error
     - 4
