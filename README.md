@@ -26,6 +26,7 @@ JavaScript `Date()` Helpers
 - `datePlus(3)` 3 days from today
 - `twoDaysAgo(date)` true if the date is two days old or higher
 - `pastDate(date)` true if is a past date
+- isOldest(date, hours) true if date is oldest new Date() - X hours
 
 ## License
 
