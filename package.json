@@ -1,7 +1,7 @@
 {
   "name": "date-xo",
   "description": "Helper for Date",
-  "version": "0.2.1-1",
+  "version": "0.2.1-2",
   "author": "Italo A. Casas <me@italoacasas.com> (http://italoacasas.com/)",
   "bugs": {
     "url": "https://github.com/italoacasas/date-xo/issues"
